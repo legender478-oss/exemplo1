@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisa dos Pes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Brisa dos Pés</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h2>Sandalias e Acessorios Femininos 🚀</h2>
+        <p>Design bonito, responsivo e profissional</p>
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>💻 Desenvolvimento</h3>
+            <p>Sites rápidos e modernos</p>
+        </div>
+
+        <div class="card">
+            <h3>🎨 Design</h3>
+            <p>Layouts bonitos e intuitivos</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Responsivo</h3>
+            <p>Funciona em qualquer dispositivo</p>
+        </div>
+
+    </section>
+
+    <section class="contato">
+        <h2>Contato</h2>
+
+        <form>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="button" onclick="testarPrompt()">Enviar</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 - Projeto Web</p>
+</footer>
+
+<script>
+// mostra no console (F12)
+console.log("Site carregado com sucesso!");
+
+// função com prompt + alert
+function testarPrompt() {
+    let nome = prompt("Qual é o seu nome?");
+    if (nome) {
+        alert("Olá, " + nome + "!");
+    }
+}
+</script>
+
+</body>
+</html>
